@@ -5,6 +5,19 @@
   name: About
   tpl: about.html
   css:
+- id: blog
+  i18n: nav.blog
+  name: Blog
+  tpl: blog.html
+  page: blog/
+  css: team
+
+- id: teaching
+  i18n: nav.teaching
+  name: teaching
+  tpl: teaching.html
+  page: teaching/
+  css: team
 
 - id: career
   i18n: nav.career
@@ -24,15 +37,10 @@
   tpl: projects.html
   css: project
 
-- id: blog
-  i18n: nav.blog
-  name: Blog
-  tpl: blog.html
-  page: blog/
-  css: testimonials navy-section
 
-- id: links
-  i18n: nav.link
-  name: Links
-  tpl: links.html
-  css: contact
+
+#- id: links
+#  i18n: nav.link
+#  name: Links
+#  tpl: links.html
+#  css: contact
