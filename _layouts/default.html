@@ -13,8 +13,12 @@ layout: compress
 
 <body id="page-top" class="landing-page">
 
-    {% if page.title != 'index' %}
+    {% if page.title == 'Blog' %}
         {% include blog_header.html %}
+    {% endif %}
+
+    {% if page.title == 'Teaching' %}
+        {% include teaching_header.html %}
     {% endif %}
 
     {{ content }}

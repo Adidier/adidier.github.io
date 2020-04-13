@@ -1,10 +1,10 @@
-# blog page sections
+# Teaching page sections
 - name: Teaching
   href: /teaching/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Youtube
-  href: /python/
+- name: ComputoGraficoOpenGL
+  href: /ComputoGraficoOpenGL/
   
-- name: Introduccion a la programacion de videojuegos
-  href: /programacion/
+- name: Introduccion a la programacion de videojuegos C++ y SDL
+  href: /IntroduccionProgramacionVideojuegosCPPySDL/
